@@ -181,20 +181,22 @@ form{
 }
 
 .game-menu{
-	height: 600px;
+	height: auto;
 	width: 20%;
 	background-color: #333333;
-	margin: 0 3% 0 0;
+	margin: 0 3% 5% 0;
 	position: absolute;
 	top: 66.5px; 
 	right: 0px;
 	border-radius: 10px;
+	box-sizing: border-box;
+	padding-bottom: 2%;
 }
 
 .game-gener-menu{
 	display: flex;
 	align-items: center;
-	margin-top: 5%;
+	margin-top: 7%;
 	position: relative;
 }
 
@@ -204,8 +206,18 @@ form{
 	margin: 0 5% 0 5%;
 }
 
+.game-gener-text1{
+	max-width: 300px;
+	color: white;
+}
+
 .game-gener-text{
 	color: white;
+	max-width: 170px;
+}
+
+.radio{
+	margin-left: 5px;
 }
 
 label input[type="radio"] {
@@ -218,17 +230,17 @@ label input[type="radio"] ~ span {
 }
 
 label input[type="radio"] ~ span:before {
-	content: "";
-	position: absolute;
+	content: "" ;
 	display: block;
+	position: absolute;
 	width: 18px;
 	height: 18px;
 	background: #fff;
 	margin-right: 5px;
 	border: 1px solid #666666;
 	border-radius: 50%;
-	right: 0;
-	bottom: 2px;
+	right: 5px;
+	bottom: 5px;
 	box-sizing: border-box;
 	transition: all 300ms ease-in-out;
 }
