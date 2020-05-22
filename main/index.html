@@ -1,46 +1,58 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-	<title>#_Игро-сайт_#</title>
-	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="css/clean.css">
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" type="text/css" href="css/clean.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<script type="text/javascript" src="js/main.js"></script>
 	<link rel="shortcut icon" href="css/assets/favicon-32x32.png" type="image/png">
 	<link rel="shortcut icon" href="css/assets/favicon-32x32.png" type="image/x-icon">
+  <title>#_Игро-сайт_#</title>
 </head>
 <body>
-	 <header>
-		<!-- Меню -->                        
-		<ul class="menu-1">
-			<li class="l1">
-				<a href="" class="">Windows оптимизация</a>
-			</li>
-			<li class="l2">
-				<a href="" class="">Android оптимизация</a>
-			</li>
-			<li class="l4">
-				<a href="" class="">Windows игры</a>
-			</li>
-			<li class="l6">
-				<a href="" class="">Поиск игр по сайту</a>
-			</li>
-			<li class="l7">
-				<a href="" class="">Войти</a>
-			</li>
-		</ul>
-	</header>
-	<main class="main">
-		<!--Стока поиска-->
-		<form>
-			<div class="form-search">
-				<input  type="search" name="spterm" class="search" placeholder="Поиск игр по сайту...">
-				<input class="button-search" type="button"> 
-     		</div>
-		</form>
-		<!--Блок игр где находятся игры-->
-		<div class="game-search" id="content" >
-			<div class="game">
+
+  <header>
+    <div class="menu-1">
+      <h3 class="logo">
+        #_Игро-сайт_#
+      </h3>                        
+		  <ul class="menu-2">
+			  <li class="l1">
+				<a href="" class="a-button">
+					Все игры
+				</a>
+			  </li>
+			  <li class="l2">
+				<a href="" class="a-button">
+					Статьи по оптимезации
+				</a>
+			  </li>
+			  <li class="l3">
+				<a href="" class="button-l3">
+					Войти
+				</a>
+			  </li>	
+      </ul>
+    </div> 
+  </header>
+  <main>
+	<div class="bulletin-board">
+		<h1 class="bulletin-1">
+			Все твои любимые игры на одном сайте
+		</h1>
+	</div>
+    <div class="search-box">
+      <input type="text" name="search" class="search" placeholder="Найти игру">
+      <input type="button" name="buttom-search" class="submit-search">
+    </div>
+  <div class="section-wrapper">
+    <section class="main-content">
+		<div class="page">
+      		<div class="game">
 				<img src="css/assets/il-2-shturmovik_c4bd5c1e.jpg" class="game-photo">
 				<div class="game-text">
 						<p class="game-text-gamename">	
@@ -58,7 +70,7 @@
 					</p>
 				</div>	   
 			</div>
-			<div class="game">
+			<div class="game" >
 				<img src="css/assets/WarThunder.jfif" class="game-photo">
 				<div class="game-text">
 						<p class="game-text-gamename">	
@@ -219,8 +231,10 @@
 				</div>	   
 			</div>
 		</div>
-		<!--game-menu это меню где ты выбераеш жанр игры. Я ещё её буду стилизировать.-->
-		<div class="game-menu">
+		
+    </section>
+    <aside class="sidebar">
+      <div class="game-menu">
 				<div class="game-gener-menu">
 					<img src="css/assets/game-gener-photo.png" class="game-gener-photo" >
 					<p class="game-gener-text1">Игровые жанры на сайте:</p>
@@ -538,9 +552,11 @@
 					</label>
 				</div>
 		</div>
-	</main>
-	<footer>
-		
-	</footer>
+    </aside>
+  </div>
+  </main>
+
+
+
 </body>
 </html>
