@@ -18,9 +18,12 @@ header {
   background: #333;
   margin-bottom: 0px;
   color: #fff;
+  display: flex;
+  justify-content: center;
 }
 
 .menu-1{
+	max-width: 1500px;
   height: 100%;
 	width: 100%;
 	margin: 0px;
@@ -111,12 +114,13 @@ main{
 }
 
 .box-login{
-	width: 23%;
-	height: 55vh;
+	width: 331px;
+	height: 385px;
 	background-color: #333333;
 	display: flex;
 	align-items: center;
 	flex-direction: column;
+	border-radius: 4px;
 }
 
 .text-login{
