@@ -75,10 +75,7 @@
   
   .button-l3{
 	color: #333333;
-<<<<<<< HEAD
 	transition: color 0.5s;
-=======
->>>>>>> 853febe827bff8ebb77b16ae78dd42db506101ca
 	width: 100%;
 	height: 100%;
 	display: flex;
@@ -324,8 +321,6 @@
 	align-items: flex-start;
 	border-bottom: 2px solid #666666;
 	max-width: 1400px;
-}
-=======
 	  margin-top: 90px;
 	  width: 100%;
 	  height: 200px;
@@ -333,16 +328,6 @@
 	  box-sizing: border-box;
 	  padding: 3% 3% 0 3%;
   }
-  
-  .footer-box{
-	  height: 60px;
-	  display: flex;
-	  justify-content: space-between;
-	  flex-direction: row;
-	  align-items: flex-start;
-	  border-bottom: #666666 solid 2px ;
-  }
->>>>>>> 853febe827bff8ebb77b16ae78dd42db506101ca
   
   .footer-logo{
 	  color: white;
@@ -406,7 +391,6 @@
   }
   
   @media screen and (max-width: 1140px) {
-<<<<<<< HEAD
 
 	header{
 		height: 80px;
@@ -1117,7 +1101,6 @@
 		font-size: 1.17em;
 	}
 }
-=======
 	  .logo{
 		  margin-left: 5%;
 		  font-size: 2;
@@ -1811,4 +1794,3 @@
 		  font-size: 1.17em;
 	  }
   }
->>>>>>> 853febe827bff8ebb77b16ae78dd42db506101ca
