@@ -47,7 +47,11 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
+<<<<<<< HEAD
+  width: 30%;
+=======
   width: 40%;
+>>>>>>> 853febe827bff8ebb77b16ae78dd42db506101ca
   height: 100%;
   position: absolute;
   right:0px;
@@ -75,6 +79,10 @@ li a{
 
 .button-l3{
   color: #333333;
+<<<<<<< HEAD
+  transition: color 0.5s;
+=======
+>>>>>>> 853febe827bff8ebb77b16ae78dd42db506101ca
   width: 100%;
   height: 100%;
   display: flex;
@@ -204,6 +212,18 @@ button:hover .h2-button{
 }
 
 footer{
+<<<<<<< HEAD
+	margin-top: 90px;
+	width: 100%;
+	height: 130px;
+	background-color: #333333;
+	box-sizing: border-box;
+	padding: 2% 2% 0 2%;
+}
+
+.footer-box{
+	height: 50px;
+=======
 	width: 100%;
 	height: 200px;
 	background-color: #333333;
@@ -213,11 +233,17 @@ footer{
 
 .footer-box{
 	height: 60px;
+>>>>>>> 853febe827bff8ebb77b16ae78dd42db506101ca
 	display: flex;
 	justify-content: space-between;
 	flex-direction: row;
 	align-items: flex-start;
+<<<<<<< HEAD
+	border-bottom: 2px solid #666666;
+	max-width: 1400px;
+=======
 	border-bottom: #666666 solid 2px ;
+>>>>>>> 853febe827bff8ebb77b16ae78dd42db506101ca
 }
 
 .footer-logo{
@@ -249,3 +275,713 @@ footer{
 	width: 100%;
 	left: 0;
 }
+<<<<<<< HEAD
+
+@media screen and (max-width: 1140px) {
+
+	header{
+		height: 80px;
+	  }
+
+	.logo{
+		margin-left: 5%;
+		font-size: 2em;
+	}
+
+
+	.menu-2{
+		width: 35%;
+	}
+
+	.a-button{
+		font-size: 1.7em;
+	}
+
+	.l3{
+		background-color: #fff;
+		width: 30%;
+		height: 50% ;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border-radius: 10px;
+	  }
+	  
+	  .button-l3{
+		color: #333333;
+		width: 100%;
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: 1.7em;
+	  }
+
+	  .bulletin-1{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.search-box {
+		width: 60%;
+		height: 50px;
+		margin: 0 auto 60px auto;
+	}
+
+	.section-wrapper {
+		max-width: 1200px;
+		margin: 0 auto;
+		width: 100%;
+	}
+
+	.sidebar {
+		display: block;
+		margin: 0 3% 0 0;
+	}
+
+	.main-content{
+		margin-right: 0px;
+	}
+
+	.description-game{
+		display: block;
+	}
+
+	
+
+	.game{
+		margin: 0 3% 8% 3%;
+		width: 90%;
+	}
+
+	.num{
+		display: flex !important;
+		flex-direction: row;
+		
+	}
+
+	.game-photo {
+		width: auto;
+		height: 80%;
+		margin-top: 3%;
+		margin-left: 3%;
+		border-radius: 5px;
+		position: static;
+		
+	}
+
+	.game-text{
+		position: static;
+		margin-top: 3%;
+		margin-left: 2%;
+		margin-right: 2%;
+		width: 100%;
+	}
+
+	.game-text-gamename{
+		display: flex;
+		justify-content: flex-start;
+	}
+
+	.inf-game{
+		display: flex;
+		justify-content: flex-star;
+	}
+
+	footer{
+		height: 150px;
+	}
+
+
+	.footer-box{
+		height: 60px;
+	}
+}
+
+@media screen and (max-width: 990px) {
+	/* популярный */
+		.logo{
+			margin-left: 5%;
+			font-size: 1.50;
+		}
+	
+		.menu-2{
+			width: 40%;
+		}
+	
+		.a-button{
+			font-size: 1.17em;
+		}
+	
+		.l3{
+			background-color: #fff;
+			width: 30%;
+			height: 50% ;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			border-radius: 10px;
+		  }
+		  
+		  .button-l3{
+			color: #333333;
+			width: 100%;
+			height: 100%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			font-size: 1.17em;
+		  }
+	
+		  .bulletin-1{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		.search-box {
+			width: 60%;
+			height: 50px;
+			margin: 0 auto 60px auto;
+		}
+	
+		.section-wrapper {
+			max-width: 1200px;
+			margin: 0 auto;
+			width: 100%;
+		}
+	
+		.sidebar {
+			display: none;
+		}
+	
+		.main-content{
+			margin-right: 0px;
+		}
+	
+		.description-game{
+			display: block;
+		}
+	
+		
+	
+		.game{
+			margin: 0 auto 8% auto;
+			width: 90%;
+		}
+	
+		.num{
+			display: flex !important;
+			flex-direction: row;
+			
+		}
+	
+		.game-photo {
+			width: auto;
+			height: 80%;
+			margin-top: 3%;
+			margin-left: 3%;
+			border-radius: 5px;
+			position: static;
+			
+		}
+	
+		.game-text{
+			position: static;
+			margin-top: 3%;
+			margin-left: 2%;
+			margin-right: 2%;
+			width: 100%;
+		}
+	
+		.game-text-gamename{
+			display: flex;
+			justify-content: flex-start;
+		}
+	
+		.inf-game{
+			display: flex;
+			justify-content: flex-star;
+		}
+	
+		footer{
+			height: 150px;
+		}
+	
+		.footer-box {
+			height: 60px;
+		}
+}
+
+@media screen and (max-width: 768px) {
+	/* популярный */
+	.logo{
+		margin-left: 5%;
+		font-size: 1.17em;
+	}
+
+	.menu-2{
+		width: 50%;
+	}
+
+	.a-button{
+		font-size: 1.17em;
+	}
+
+	.l3{
+		background-color: #fff;
+		width: 25%;
+		height: 50% ;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border-radius: 10px;
+	  }
+	  
+	  .button-l3{
+		color: #333333;
+		width: 100%;
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: 1.17em;
+	  }
+
+	  .bulletin-1{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.search-box {
+		width: 70%;
+		height: 50px;
+		margin: 0 auto 60px auto;
+	}
+
+	.section-wrapper {
+		max-width: 1200px;
+		margin: 0 auto;
+		width: 100%;
+	}
+
+	.sidebar {
+		display: none;
+	}
+
+	.main-content{
+		margin-right: 0px;
+		width: 100%;
+	}
+
+	.description-game{
+		display: block;
+	}
+
+	
+
+	.game{
+		margin: 0 auto 8% auto;
+		width: 95%;
+	}
+
+	.num{
+		display: flex !important;
+		flex-direction: row;
+		
+	}
+
+	.game-photo {
+		width: auto;
+		max-width: 200px;
+		height: 90%;
+		margin-top: 3%;
+		margin-left: 3%;
+		border-radius: 5px;
+		position: static;
+		
+	}
+
+	.game-text{
+		position: static;
+		margin-top: 3%;
+		margin-left: 2%;
+		width: 66%;
+	}
+
+	.game-text-gamename{
+		display: flex;
+		justify-content: flex-start;
+	}
+
+	.inf-game{
+		display: flex;
+		justify-content: flex-start;
+	}
+
+	footer{
+		height: 150px;
+	}
+
+	.footer-box {
+		height: 60px;
+	}
+}
+
+
+@media screen and (max-width: 600px) {
+
+	header{
+		height: 60px;
+	}
+
+	.logo{
+		margin-left: 5%;
+		font-size: 1.17em;
+	}
+
+	.menu-2{
+		width: 55%;
+	}
+
+	.a-button{
+		font-size: 1.17em;
+	}
+
+	.l3{
+		background-color: #fff;
+		width: 25%;
+		height: 50% ;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border-radius: 10px;
+	  }
+	  
+	  .button-l3{
+		color: #333333;
+		width: 100%;
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: 1em;
+	  }
+
+	  .bulletin-1{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: 1.17em;
+	}
+	.search-box {
+		width: 90%;
+		height: 50px;
+		margin: 0 auto 60px auto;
+	}
+
+	.section-wrapper {
+		max-width: 1200px;
+		margin: 0 auto;
+		width: 100%;
+	}
+
+	.sidebar {
+		display: none;
+	}
+
+	.main-content{
+		margin-right: 0px;
+	}
+
+	.description-game{
+		display: none;
+	}
+
+	
+
+	.game{
+		margin: 0 auto 8% auto;
+		width: 80%;
+	}
+
+	.num{
+		display: flex !important;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.game-photo {
+		width: auto;
+		height: 75%;
+		margin-top: 4%;
+		border-radius: 5px;
+		position: static;
+		
+	}
+
+	.game-text{
+		position: static;
+		margin-top: 2%;
+		width: 100%;
+	}
+
+	.game-text-gamename{
+		display: flex;
+		justify-content: center;
+	}
+
+	.inf-game{
+		display: flex;
+		justify-content: center;
+	}
+
+	footer{
+		height: 130px;
+	}
+
+	.footer-box {
+		height: 60px;
+	}
+
+	
+}
+
+@media screen and (max-width: 320px) {
+	.logo{
+		margin-left: 5%;
+		font-size: 0.80em;
+	}
+
+	.menu-2{
+		width: 60%;
+	}
+
+	.a-button{
+		font-size: 0.83em;
+	}
+
+	.l3{
+		background-color: #fff;
+		width: 30%;
+		height: 45% ;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border-radius: 10px;
+	  }
+	  
+	  .button-l3{
+		color: #333333;
+		width: 100%;
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: 0.67em;
+	  }
+
+	  .bulletin-1{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: 0.83em;
+	}
+	.search-box {
+		width: 90%;
+		height: 50px;
+		margin: 0 auto 60px auto;
+	}
+
+	.section-wrapper {
+		max-width: 1200px;
+		margin: 0 auto;
+		width: 100%;
+	}
+
+	.sidebar {
+		display: none;
+	}
+
+	.main-content{
+		margin-right: 0px;
+	}
+
+	.description-game{
+		display: none;
+	}
+
+	
+
+	.game{
+		margin: 0 auto 8% auto;
+		width: 80%;
+	}
+
+	.num{
+		display: flex !important;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.game-photo {
+		width: auto;
+		height: 75%;
+		margin-top: 4%;
+		border-radius: 5px;
+		position: static;
+		
+	}
+
+	.game-text{
+		position: static;
+		margin-top: 2%;
+		width: 100%;
+	}
+
+	.game-text-gamename{
+		display: flex;
+		justify-content: center;
+	}
+
+	.inf-game{
+		display: flex;
+		justify-content: center;
+	}
+
+	footer{
+		height: 100px;
+	}
+
+	.footer-box {
+		height: 40px;
+	}
+
+	.footer-logo{
+		font-size: 1.17em;
+	}
+
+	.onas{
+		font-size: 1.17em;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.logo{
+		margin-left: 5%;
+		font-size: 0.83em;
+	}
+
+	.menu-2{
+		width: 60%;
+	}
+
+	.a-button{
+		font-size: 0.83em;
+	}
+
+	.l3{
+		background-color: #fff;
+		width: 30%;
+		height: 45% ;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border-radius: 10px;
+	  }
+	  
+	  .button-l3{
+		color: #333333;
+		width: 100%;
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: 0.67em;
+	  }
+
+	  .bulletin-1{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: 1em;
+	}
+	.search-box {
+		width: 90%;
+		height: 50px;
+		margin: 0 auto 60px auto;
+	}
+
+	.section-wrapper {
+		max-width: 1200px;
+		margin: 0 auto;
+		width: 100%;
+	}
+
+	.sidebar {
+		display: none;
+	}
+
+	.main-content{
+		margin-right: 0px;
+	}
+
+	.description-game{
+		display: none;
+	}
+
+	
+
+	.game{
+		margin: 0 auto 8% auto;
+		width: 80%;
+	}
+
+	.num{
+		display: flex !important;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.game-photo {
+		width: auto;
+		height: 75%;
+		margin-top: 4%;
+		border-radius: 5px;
+		position: static;
+		
+	}
+
+	.game-text{
+		position: static;
+		margin-top: 2%;
+		width: 100%;
+	}
+
+	.game-text-gamename{
+		display: flex;
+		justify-content: center;
+	}
+
+	.inf-game{
+		display: flex;
+		justify-content: center;
+	}
+
+	footer{
+		height: 100px;
+	}
+
+	.footer-box {
+		height: 40px;
+	}
+
+	.footer-logo{
+		font-size: 1.17em;
+	}
+
+	.onas{
+		font-size: 1.17em;
+	}
+}
+=======
+>>>>>>> 853febe827bff8ebb77b16ae78dd42db506101ca
