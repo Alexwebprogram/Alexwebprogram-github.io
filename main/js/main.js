@@ -4,8 +4,8 @@
 
 // pagination
 
-const count = 10; //всего записей
-const cnt = 10; //сколько отображаем сначала
+const count = 21; //всего записей
+const cnt = 7; //сколько отображаем сначала
 const cnt_page = Math.ceil(count / cnt); //кол-во страниц
 
 
