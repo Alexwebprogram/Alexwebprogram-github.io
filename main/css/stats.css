@@ -297,10 +297,12 @@
 	}
 
 	.logo{
-		margin-left: 5%;
 		font-size: 2em;
 	}
 
+	.logo-a{
+		margin-left: 5%;
+	}
 
 	.menu-2{
 		width: 35%;
@@ -361,8 +363,11 @@
 @media screen and (max-width: 990px) {
 	/* популярный */
 		.logo{
-			margin-left: 5%;
 			font-size: 1.50;
+		}
+
+		.logo-a{
+			margin-left: 5%;
 		}
 	
 		.menu-2{
@@ -483,8 +488,11 @@
 @media screen and (max-width: 768px) {
 	/* популярный */
 	.logo{
-		margin-left: 5%;
 		font-size: 1.17em;
+	}
+
+	.logo-a{
+		margin-left: 5%;
 	}
 
 	.menu-2{
@@ -611,8 +619,11 @@
 	}
 
 	.logo{
-		margin-left: 5%;
 		font-size: 1.17em;
+	}
+
+	.logo-a{
+		margin-left: 5%;
 	}
 
 	.menu-2{
@@ -686,8 +697,11 @@
 	}
 
 	.logo{
-		margin-left: 5%;
 		font-size: 0.80em;
+	}
+
+	.logo-a{
+		margin-left: 5%;
 	}
 
 	.menu-2{
@@ -805,8 +819,11 @@
 
 @media screen and (max-width: 400px) {
 	.logo{
-		margin-left: 5%;
 		font-size: 0.83em;
+	}
+
+	.logo-a{
+		margin-left: 5%;
 	}
 
 	.menu-2{

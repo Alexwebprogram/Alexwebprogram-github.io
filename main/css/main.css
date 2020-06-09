@@ -392,14 +392,16 @@
   @media screen and (max-width: 1140px) {
 
 	header{
-		height: 80px;
+		height: 60px;
 	}
 
 	.logo{
-		margin-left: 5%;
 		font-size: 2em;
 	}
 
+	.logo-a{
+		margin-left: 5%;
+	}
 
 	.menu-2{
 		width: 35%;
@@ -513,8 +515,11 @@
 @media screen and (max-width: 990px) {
 	/* популярный */
 		.logo{
-			margin-left: 5%;
 			font-size: 1.50;
+		}
+
+		.logo-a{
+			margin-left: 5%;
 		}
 	
 		.menu-2{
@@ -627,8 +632,11 @@
 @media screen and (max-width: 768px) {
 	/* популярный */
 	.logo{
-		margin-left: 5%;
 		font-size: 1.17em;
+	}
+
+	.logo-a{
+		margin-left: 5%;
 	}
 
 	.menu-2{
@@ -747,8 +755,11 @@
 	}
 
 	.logo{
-		margin-left: 5%;
 		font-size: 1.17em;
+	}
+
+	.logo-a{
+		margin-left: 5%;
 	}
 
 	.menu-2{
@@ -865,8 +876,11 @@
 	}
 
 	.logo{
-		margin-left: 5%;
 		font-size: 0.80em;
+	}
+
+	.logo-a{
+		margin-left: 5%;
 	}
 
 	.menu-2{
@@ -984,8 +998,11 @@
 
 @media screen and (max-width: 400px) {
 	.logo{
-		margin-left: 5%;
 		font-size: 0.83em;
+	}
+
+	.logo-a{
+		margin-left: 5%;
 	}
 
 	.menu-2{
@@ -1101,9 +1118,12 @@
 	}
 
 	  .logo{
-		  margin-left: 5%;
 		  font-size: 2;
 	  }
+
+	  .logo-a{
+		margin-left: 5%;
+	}
   
 	  .menu-2{
 		  width: 30%;
@@ -1216,9 +1236,12 @@
   @media screen and (max-width: 990px) {
 	  /* популярный */
 		  .logo{
-			  margin-left: 5%;
 			  font-size: 1.50;
 		  }
+
+		  .logo-a{
+			margin-left: 5%;
+		}
 	  
 		  .menu-2{
 			  width: 40%;
@@ -1330,9 +1353,12 @@
   @media screen and (max-width: 768px) {
 	  /* популярный */
 	  .logo{
-		  margin-left: 5%;
 		  font-size: 1.17em;
 	  }
+
+	  .logo-a{
+		margin-left: 5%;
+	}
   
 	  .menu-2{
 		  width: 50%;
@@ -1445,9 +1471,12 @@
   
   @media screen and (max-width: 600px) {
 	  .logo{
-		  margin-left: 5%;
 		  font-size: 1.17em;
 	  }
+
+	  .logo-a{
+		margin-left: 5%;
+	}
   
 	  .menu-2{
 		  width: 55%;
@@ -1558,9 +1587,12 @@
   
   @media screen and (max-width: 320px) {
 	  .logo{
-		  margin-left: 5%;
 		  font-size: 0.80em;
 	  }
+
+	  .logo-a{
+		margin-left: 5%;
+	}
   
 	  .menu-2{
 		  width: 60%;
@@ -1677,9 +1709,12 @@
   
   @media screen and (max-width: 400px) {
 	  .logo{
-		  margin-left: 5%;
 		  font-size: 0.83em;
 	  }
+
+	  .logo-a{
+		margin-left: 5%;
+	}
   
 	  .menu-2{
 		  width: 60%;

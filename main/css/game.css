@@ -43,8 +43,6 @@
   }
 
   .logo{
-	  width: 100%;
-	  height: 100%;
 	  color: white;
 	  cursor: pointer;
   }
@@ -306,8 +304,11 @@
 @media screen and (max-width: 768px) {
 	/* популярный */
 	.logo{
-		margin-left: 5%;
 		font-size: 1.17em;
+	}
+
+	.logo-a{
+		margin-left: 5%;
 	}
 
 	.menu-2{
@@ -384,7 +385,6 @@
 	.game-photo {
 		width: auto;
 		max-width: 200px;
-		height: 90%;
 		margin-top: 3%;
 		margin-left: 3%;
 		border-radius: 5px;
@@ -426,8 +426,11 @@
 	}
 
 	.logo{
-		margin-left: 5%;
 		font-size: 1.17em;
+	}
+
+	.logo-a{
+		margin-left: 5%;
 	}
 
 	.menu-2{
@@ -516,7 +519,6 @@
 
 	.game-photo {
 		width: auto;
-		height: 75%;
 		margin-top: 4%;
 		border-radius: 5px;
 		position: static;
@@ -556,8 +558,11 @@
 	}
 
 	.logo{
-		margin-left: 5%;
 		font-size: 0.80em;
+	}
+
+	.logo-a{
+		margin-left: 5%;
 	}
 
 	.menu-2{
@@ -646,7 +651,6 @@
 
 	.game-photo {
 		width: auto;
-		height: 75%;
 		margin-top: 4%;
 		border-radius: 5px;
 		position: static;
@@ -688,8 +692,11 @@
 
 @media screen and (max-width: 400px) {
 	.logo{
-		margin-left: 5%;
 		font-size: 0.83em;
+	}
+
+	.logo-a{
+		margin-left: 5%;
 	}
 
 	.menu-2{
@@ -770,7 +777,6 @@
 
 	.game-photo {
 		width: auto;
-		height: 75%;
 		margin-top: 4%;
 		border-radius: 5px;
 		position: static;
@@ -810,9 +816,12 @@
 	}
 
 	  .logo{
-		  margin-left: 5%;
 		  font-size: 2;
 	  }
+
+	  .logo-a{
+		margin-left: 5%;
+	}
   
 	  .menu-2{
 		  width: 30%;
@@ -887,7 +896,6 @@
   
 	  .game-photo {
 		  width: auto;
-		  height: 80%;
 		  margin-top: 3%;
 		  margin-left: 3%;
 		  border-radius: 5px;
@@ -924,9 +932,12 @@
   
   @media screen and (max-width: 400px) {
 	  .logo{
-		  margin-left: 5%;
 		  font-size: 0.83em;
 	  }
+
+	  .logo-a{
+		margin-left: 5%;
+	}
   
 	  .menu-2{
 		  width: 60%;
@@ -1006,7 +1017,6 @@
   
 	  .game-photo {
 		  width: auto;
-		  height: 75%;
 		  margin-top: 4%;
 		  border-radius: 5px;
 		  position: static;
